@@ -6,11 +6,11 @@
         {
             Console.WriteLine("What is your favorite subject?");
 
-            var subject = Console.ReadLine();
+            string? subject = Console.ReadLine();
 
-            switch (subject)
+            switch (subject.ToLower())
             {
-            case "Math":
+            case "math":
                     Console.WriteLine("Math is awesome");
                break;
             case "science":
@@ -19,10 +19,10 @@
             case "history":
                 Console.WriteLine("I love history");
                 break;
-             case "French":
+             case "french":
                 Console.WriteLine("c'est Bien");
                 break;
-             case "English":
+             case "english":
                 Console.WriteLine("its alright");
                 break;
              case "theatre arts":
