@@ -28,6 +28,10 @@
              case "theatre arts":
                 Console.WriteLine("love it");
                 break;
+             default:
+                    Console.WriteLine("i forgot about that one");
+                    break;
+
 
             }
 
